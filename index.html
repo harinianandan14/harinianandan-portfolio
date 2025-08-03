@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harini Anandan - AI/ML Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Harini Anandan</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Harini Anandan</span></h1>
+                <div class="typing-container">
+                    <h2 class="typing-text" id="typingText"></h2>
+                </div>
+                <p class="hero-description">
+                    Self-taught in the mystical arts of code whispering, prompt crafting, and language model tinkering. Currently exploring the cosmos of Python and ML, one curious bug at a time—professional tone optional, passion required.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn--secondary">View Projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Once upon a time, armed only with a laptop and an insatiable curiosity, 
+                        I set out to conquer the world of AI. 
+                    </p>
+                    <p>
+                        Through late nights experimenting with LLM pipelines and neuro-cognitive systems, 
+                        and wrangling Java and Python until they became allies, I built projects that brought ideas to life. 
+                        Along the way, I learned the value of clean code, solid design, and a bit of humor—because 
+                        every bug has a story to tell.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>6+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>7+</h3>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>1</h3>
+                            <p>Publication</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-card card">
+                        <div class="card__body">
+                            <h3>Education</h3>
+                            <div class="education-item">
+                                <h4>Bachelor in Computer Science Engineering</h4>
+                                <p>SIMATS Engineering, Chennai • 2024</p>
+                                <p class="cgpa">CGPA: 8.3/10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>harinianandanrao21@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/harini-anandan-rao-a83134261" target="_blank">LinkedIn Profile</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/harinianandan14" target="_blank">GitHub Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category card">
+                    <div class="card__body">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <div class="skill-name">Java</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Python</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">JavaScript</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category card">
+                    <div class="card__body">
+                        <h3>AI/ML Technologies</h3>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <div class="skill-name">Prompt Engineering</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">RAG Systems</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">LangChain</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">TensorFlow</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category card">
+                    <div class="card__body">
+                        <h3>Cloud & Tools</h3>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <div class="skill-name">AWS</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">MySQL</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">VS Code</div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category card">
+                    <div class="card__body">
+                        <h3>Best Practices</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">OOP</span>
+                            <span class="skill-tag">SOLID Principles</span>
+                            <span class="skill-tag">Unit Testing</span>
+                            <span class="skill-tag">Performance Tuning</span>
+                            <span class="skill-tag">Secure Coding</span>
+                            <span class="skill-tag">Documentation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <h3>Neuro-Cognitive Listening Style Analysis</h3>
+                            <span class="project-status status--warning">Upcoming</span>
+                        </div>
+                        <p class="project-description">
+                            Developed AI models to study neuro-cognitive listening patterns, distinguishing between active, passive, 
+                            and distracted behaviours using machine learning and psychological data analysis.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">Psychology Data</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <h3>Context-Aware Q&A with RAG</h3>
+                            <span class="project-status status--success">Completed</span>
+                        </div>
+                        <p class="project-description">
+                            Interactive app allowing document uploads, vector search for relevant content retrieval, 
+                            and precise answer generation using LLM technology.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">RAG</span>
+                            <span class="tech-tag">Vector Search</span>
+                            <span class="tech-tag">LLM</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <h3>LLM Prompt Comparison Dashboard</h3>
+                            <span class="project-status status--success">Completed</span>
+                        </div>
+                        <p class="project-description">
+                            Visual evaluator comparing outputs from different prompts/models, scoring based on fluency 
+                            and relevance with easy-to-read chart visualizations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">LLM</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <h3>Essay Assessment NLP Model</h3>
+                            <span class="project-status status--success">Completed</span>
+                        </div>
+                        <p class="project-description">
+                            Built RNN-based NLP model for efficient essay evaluation with performance monitoring, 
+                            debugging tools, and structured unit testing practices.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">RNN</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Unit Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <h3>Java Game Development Collection</h3>
+                            <span class="project-status status--success">Completed</span>
+                        </div>
+                        <p class="project-description">
+                            Classic Java-based games including Tic-Tac-Toe, Snake, and Flappy Bird clone with 
+                            well-commented, structured code and optimized functionality.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Game Development</span>
+                            <span class="tech-tag">Algorithm Optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <h3>8x8x8 LED Cube with Arduino</h3>
+                            <span class="project-status status--success">Completed</span>
+                        </div>
+                        <p class="project-description">
+                            Cost-effective LED Cube using Arduino and Golang with hardware troubleshooting, 
+                            optimized display performance, and Unix/Linux debugging tools.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">Golang</span>
+                            <span class="tech-tag">Hardware</span>
+                            <span class="tech-tag">Unix/Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card card">
+                    <div class="card__body">
+                        <div class="cert-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>LangChain for LLM Application Development</h3>
+                        <p>DeepLearningAI</p>
+                    </div>
+                </div>
+                <div class="cert-card card">
+                    <div class="card__body">
+                        <div class="cert-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Foundation of Generative AI</h3>
+                        <p>Udacity</p>
+                    </div>
+                </div>
+                <div class="cert-card card">
+                    <div class="card__body">
+                        <div class="cert-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <h3>Introducing Generative AI with AWS</h3>
+                        <p>Udacity</p>
+                    </div>
+                </div>
+                <div class="cert-card card">
+                    <div class="card__body">
+                        <div class="cert-icon">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <h3>Docker Essentials: A Developer Introduction</h3>
+                        <p>IBM Developer Skills Network</p>
+                    </div>
+                </div>
+                <div class="cert-card card">
+                    <div class="card__body">
+                        <div class="cert-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3>The Art of Prompt Engineering</h3>
+                        <p>IBM Developer Skills Network</p>
+                    </div>
+                </div>
+                <div class="cert-card card">
+                    <div class="card__body">
+                        <div class="cert-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Network Basis & Security</h3>
+                        <p>Cisco Networking Academy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publication-card card">
+                <div class="card__body">
+                    <div class="publication-content">
+                        <h3>Enhancing online learning based on modified recurrent neural network (RNN) compared with incremental feature learning</h3>
+                        <p class="publication-authors">Anandan, H., & Pramila, P.V.</p>
+                        <p class="publication-details">
+                            <span class="publication-year">2024</span> •
+                            <span class="publication-publisher">Routledge</span> •
+                            <span class="publication-book">Pedagogical Revelations and Emerging Trends</span> •
+                            <span class="publication-chapter">Chapter 41</span>
+                        </p>
+                    </div>
+                    <div class="publication-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h3>Need a partner-in-crime (or code) for your next AI adventure?</h3>
+                    <p>
+                        Count me in—your next project has its star developer right here. Let’s make it official and get me on board!
+                    </p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:harinianandan1406@gmail.com" class="contact-link card">
+                        <div class="card__body flex items-center gap-16">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email Me</span>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/harini-anandan-rao-a83134261" target="_blank" class="contact-link card">
+                        <div class="card__body flex items-center gap-16">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/harinianandan14" target="_blank" class="contact-link card">
+                        <div class="card__body flex items-center gap-16">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Harini Anandan. Designed with ❤️ and lots of ☕</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
